@@ -1,25 +1,25 @@
 ## KB IT's Your Life 5기 Algorithm & CS 스터디
 ---
-#### Directory convention
+#### :ocean:Directory convention
 ```
 src/{이름}/{n}주차/{플랫폼}{문제번호}_{이니셜2자}.java
 ex) src/조우형/week1/boj1234_wh.java
 ```
 
-#### Source file convention
+#### :ocean:Source file convention
 - 문제출처+문제번호_이름이니셜2자.java
   - 백준 - boj
   - 삼성 SW Expert Academy - swea
   - 프로그래머스 - pgs
   - ```ex) boj1234_wh.java```
 
-#### Commit convention
+#### :ocean:Commit convention
 ```
 add : git commit -m"이름/n주차/문제번호"
 ex) add : git commit -m"조우형/week1/boj1234"
 ```
 
-#### Pull Request convention
+#### :ocean:Pull Request convention
 - PR 제목 ```이름/n주차/푼 문제번호(여러개면 여러개)```
 
    <img src=https://github.com/wxxhyeong/kb-study/assets/78301292/d44edcc2-d1dc-41c4-9870-53bc991e81ee width="600px" height="200px"/>
@@ -27,13 +27,13 @@ ex) add : git commit -m"조우형/week1/boj1234"
 - <b>Add a description</b> : 문제 풀면서 어려웠던 점 or 접근 방법 or 풀지 못했다면 이유
   (ex. ~식으로 접근했는데 안됐다, 접근 방법을 모르겠다.) 를 남겨야 다른 팀원들의 코드 리뷰를 통해 해결할 수 있습니다!
 
-##### ※ 주의 사항 ※
+##### :heavy_exclamation_mark: 주의 사항 :heavy_exclamation_mark:
 - merge는 오전 9:00 또는 merge 요청에 진행
 - 다른 팀원의 파일은 touch X
 
 ---
 
-#### Git 초기 사용법
+#### :smiley_cat:Git 초기 사용법
 초기 설정에 시간 뺏기지 않도록 가이드라인 작성했습니다. 문제 생기거나 잘 안되는 부분 있으면 바로바로 물어보세요!
 
 1. 저장소 fork
