@@ -1,5 +1,6 @@
 ## KB IT's Your Life 5기 Algorithm & CS 스터디
 ---
+## :computer:Algorithm
 #### :ocean:Directory convention
 ```
 src/{이름}/{n}주차/{플랫폼}{문제번호}_{이니셜2자}.java
@@ -15,8 +16,11 @@ ex) src/조우형/week1/boj1234_wh.java
 
 #### :ocean:Commit convention
 ```
-add : git commit -m"이름/n주차/문제번호"
-ex) add : git commit -m"조우형/week1/boj1234"
+git commit -m"add : 이름/n주차/문제번호"
+ex) git commit -m"add : 조우형/week1/boj1234"
+
+수정하는 경우
+git commit -m"fix : 조우형/week1/boj1234" 
 ```
 
 #### :ocean:Pull Request convention
