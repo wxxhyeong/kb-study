@@ -48,7 +48,7 @@ git commit -m"fix : 조우형/week1/boj1234"
    
      ```git clone `원본 Repo말고 fork한 자신의 Repo주소'```
   
-3. git bash or Repository 폴더에서 cmd 실행
+3. git bash 실행 or Repository 폴더에서 cmd 실행
 
    ![image](https://github.com/wxxhyeong/kb-study/assets/78301292/314b7dc8-7a36-4680-a1e4-1f833c7a6244)
 
