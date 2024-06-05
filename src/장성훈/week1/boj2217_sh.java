@@ -1,9 +1,11 @@
+package 장성훈.week1;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.lang.Math.max;
 
-public class Main {
+public class boj2217_sh {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
