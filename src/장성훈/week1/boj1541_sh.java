@@ -1,6 +1,8 @@
+package 장성훈.week1;
+
 import java.util.Scanner;
 
-public class Main {
+public class boj1541_sh {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();

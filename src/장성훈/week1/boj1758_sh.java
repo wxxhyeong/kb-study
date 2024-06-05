@@ -1,7 +1,9 @@
+package 장성훈.week1;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class boj1758_sh {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
