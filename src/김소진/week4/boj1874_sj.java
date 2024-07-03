@@ -3,7 +3,7 @@ package 김소진.week4;
 import java.io.*;
 import java.util.*;
 
-public class boj17298_sj {
+public class boj1874_sj {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(bf.readLine());
