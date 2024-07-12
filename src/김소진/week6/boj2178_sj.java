@@ -7,8 +7,6 @@ import java.util.*;
 //import java.util.Queue;           // Queue 인터페이스를 import
 //import java.util.LinkedList;      // LinkedList 클래스를 import
 
-
-
 public class Main {
 
     static int[][] map;         // 미로의 지도를 저장할 배열
