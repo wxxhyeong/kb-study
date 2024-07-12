@@ -28,6 +28,4 @@ class prg43165_sj {
                 return answer; // 경우의 수 반환
             }
         }
-    }
-
 }
