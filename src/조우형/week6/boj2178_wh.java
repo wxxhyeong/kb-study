@@ -4,11 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Deque;
 import java.util.StringTokenizer;
 
-public class boj2178 {
+public class boj2178_wh {
 
     static int[][] a;
     static int n;
