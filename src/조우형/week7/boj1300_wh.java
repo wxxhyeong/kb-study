@@ -13,22 +13,22 @@ public class boj1300_wh {
 
         int start = 1;
         int end = k;
+
         while (start <= end) {
-            int mid = (start + end) / 2;
             int cnt = 0;
+            int mid = (start+end) /2;
 
             for (int i = 1; i <= n; i++) {
                 cnt += Math.min(mid / i, n);
             }
 
-            if (cnt < k) {
-                start = mid + 1;
+            if (cnt >= k) {
+                end = mid-1;
             }
-            else
-                end = mid - 1;
+            else {
+                start = mid+1;
+            }
         }
-
         System.out.println(start);
-
     }
 }
