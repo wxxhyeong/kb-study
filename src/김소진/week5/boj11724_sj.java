@@ -43,7 +43,7 @@ public class boj11724_sj{
 
                     for(int j = 0; j <cur.size(); j++){
                         if(!visited[cur.get(j)]){
-                            stcak.push(cur.get(j));
+                            stack.push(cur.get(j));
                             visited[cur.get(j)] = true;
                         }
                     }
