@@ -2,7 +2,7 @@ package 조우형.week8;
 
 import java.util.*;
 import java.io.*;
-public class boj18352 {
+public class boj18352_wh {
 
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
