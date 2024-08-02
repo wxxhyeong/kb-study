@@ -39,25 +39,26 @@ public class boj2178_sh {
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                int[] cur = queue.poll();
-                int x = cur[0];
-                int y = cur[1];
+            int[] cur = queue.poll();
+            int x = cur[0];
+            int y = cur[1];
 
-                if (x == n - 1 && y == m - 1) {
-                    return maze[x][y];
-                }
+            if (x == n - 1 && y == m - 1) {
+                return maze[x][y];
+            }
 
-                for (int k = 0; k < 4; k++) {
-                    int nx = x + dx[k];
-                    int ny = y + dy[k];
+            for (int k = 0; k < 4; k++) {
+                int nx = x + dx[k];
+                int ny = y + dy[k];
 
-                    if (nx >= 0 && ny >= 0 && nx < n && ny < m && maze[nx][ny] == 1){
-                        maze[nx][ny] = maze[x][y] + 1;
-                        queue.add(new int[]{nx, ny});
-                    }
+                if (nx >= 0 && ny >= 0 && nx < n && ny < m && maze[nx][ny] == 1){
+                    maze[nx][ny] = maze[x][y] + 1;
+                    queue.add(new int[]{nx, ny});
                 }
             }
+//            for (int i = 0; i < size; i++) {
+//
+//            }
         }
         return -1;
     }
