@@ -5,7 +5,6 @@ import java.util.List;
 
 public class leet46_wh {
 
-
     List<List<Integer>> answer;
     boolean[] visited;
     int len;
@@ -22,7 +21,7 @@ public class leet46_wh {
     public void back(int cur, List<Integer> al, int[] nums) {
 
         if (cur == len) {
-            answer.add(al);
+            answer.add(new ArrayList<>(al));
             return;
         }
 
