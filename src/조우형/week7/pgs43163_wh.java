@@ -11,7 +11,7 @@ public class pgs43163_wh {
         this.words = words;
         this.target = target;
         visited = new boolean[words.length];
-        Integer.Max
+
         dfs(0, begin);
 
 
