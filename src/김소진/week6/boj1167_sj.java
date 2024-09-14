@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class boj1167_sj {
 
     static List<int[]>[] tree; // 트리의 인접 리스트를 저장할 배열
     static boolean[] visited;  // 방문 여부를 체크할 배열
