@@ -10,29 +10,28 @@ public class pgs12951_wh {
     }
 
     static public String solution(String s) {
-        String answer = "";
-        StringBuilder sb = new StringBuilder();
-        boolean wasSpace = true;
-        s = s.toLowerCase();
+            String answer = "";
+            StringBuilder sb = new StringBuilder();
+            boolean wasSpace = true;
+            s = s.toLowerCase();
 
+            for (int i = 0; i < s.length(); i++) {
 
-        for (int i = 0; i < s.length(); i++) {
+                if (wasSpace && s.charAt(i) <= 'z' && s.charAt(i) >= 'a') {
+                    sb.append((char)(s.charAt(i)-('a'-'A')));
+                    wasSpace = false;
+                    continue;
+                }
+                else if (s.charAt(i)==' '){
+                    wasSpace = true;
+                }
+                else {
+                    wasSpace = false;
+                }
 
-            if (wasSpace && s.charAt(i) <= 'z' && s.charAt(i) >= 'a') {
-                sb.append((char)(s.charAt(i)-('a'-'A')));
-                wasSpace = false;
-                continue;
+                sb.append(s.charAt(i));
+
             }
-            else if (s.charAt(i)==' '){
-                wasSpace = true;
-            }
-            else {
-                wasSpace = false;
-            }
-
-            sb.append(s.charAt(i));
-
+            return sb.toString();
         }
-        return sb.toString();
-    }
 }
