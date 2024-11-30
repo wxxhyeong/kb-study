@@ -1,3 +1,5 @@
+package 김소진.week6;
+
 import java.io.*;
 import java.util.*;
 //import java.io.BufferedReader;  // BufferedReader 클래스를 import
@@ -7,7 +9,7 @@ import java.util.*;
 //import java.util.Queue;           // Queue 인터페이스를 import
 //import java.util.LinkedList;      // LinkedList 클래스를 import
 
-public class Main {
+public class boj2178_sj {
 
     static int[][] map;         // 미로의 지도를 저장할 배열
     static int n, m;            // 미로의 세로 길이와 가로 길이

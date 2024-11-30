@@ -35,13 +35,15 @@ public class pgs43164_wh {
         deque.add("ICN");
         visited.replace("ICN", true);
 
-
+        Deque<String> cities = new ArrayDeque<>();
+        cities.add("ICN");
         while (!deque.isEmpty()) {
             String start = deque.pollFirst();
 
             for (String s : hashmap.get(start)) {
                 if (!visited.get(s)) {
-
+                    deque.add(s);
+                    visited.replace(s, true);
                 }
             }
 
